@@ -9,10 +9,10 @@ playstore_link                            :                                     
 presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon                                  : assets/appicon.png                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_icon                                  : /bac-calculator-ios-landing-page/assets/appicon.png                        # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Kiểm tra nồng độ cồn                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 : Miễn phí                                  # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Ứng dụng giúp bạn kiểm tra khi nào lượng cồn trong cơ thẻ được hấp thụ hoàn toàn.
+app_description                           : Ứng dụng giúp bạn kiểm tra khi nào lượng cồn trong cơ thể được hấp thụ hoàn toàn.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
@@ -42,6 +42,9 @@ features                                  :
     description                           : Cho biết thời gian cần thiết để cơ thể hấp thụ hàon toàn cồn, giúp bạn quyết định có nên lái xe hay không.
     fontawesome_icon_name                 : star
 
+  - title                                 : Chế độ nền tối
+    description                           : Giúp tiết kiệm pin và dễ nhìn vào ban đêm.
+    fontawesome_icon_name                 : star
 
 # Theme Settings
 topbar_color                              : "#ffffff"
